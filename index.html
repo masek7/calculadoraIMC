@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="imc.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculadoraIMC">
+            <div class="title"> 
+                <h1>Calculadora de IMC</h1>
+                <p>Aqui você poderá calcular seu IMC com segurança e precisão.</p>
+                Caso precise de ajuda, procure um médico.
+                
+            </div>
+           
+            <div class="inputs">
+                <div>Seu peso (kg):</div>
+                <input type="number" name="" class="input 1" id="peso">
+                <div>Sua altura (cm's):</div>
+                <input type="number" name="" class="input 2" id="altura"> 
+                <div><button id="calcular" onclick="Calcular()">Calcular</button></div>
+            </div>
+        <div class="Resultado">
+            <div class="TextoIndice" id="TextoIndice"> 
+            </div>
+            <div class="IMC" id="IMC"></div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="imc.js"></script>
+</html>
