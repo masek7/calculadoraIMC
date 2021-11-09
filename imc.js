@@ -1,12 +1,12 @@
 function Calcular (){
 
-    var peso = document.getElementById('peso');
-    var altura = document.getElementById('altura');
+    let peso = document.getElementById('peso');
+    let altura = document.getElementById('altura');
 
-    var textoIndice = document.getElementById('TextoIndice');
-    var textoIMC = document.getElementById('IMC')
+    let textoIndice = document.getElementById('TextoIndice');
+    let textoIMC = document.getElementById('IMC')
     
-    var imc = ((Number(peso.value) )/ (Number(altura.value) * Number(altura.value) / 10000)).toFixed(2);
+    let imc = ((Number(peso.value) )/ (Number(altura.value) * Number(altura.value) / 10000)).toFixed(2);
 
     textoIMC.innerHTML = ` ${imc}`;
 
